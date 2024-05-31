@@ -1,5 +1,5 @@
 # RNN-LSTM Based Typhoon Prediction in the Philippines
-(Sorry for the late submission sir_
+(Sorry for the late submission sir)
 
 ## Overview
 This Streamlit app utilizes a bi-directional Recurrent Neural Network (RNN) with Long Short-Term Memory (LSTM) units to analyze historical typhoon data and forecast the likelihood of typhoons affecting the Philippines in a given month. Users can interact with the app to visualize past typhoon patterns and receive monthly forecasts, potentially aiding in disaster preparedness efforts.
