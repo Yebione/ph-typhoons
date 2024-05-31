@@ -18,9 +18,18 @@ def app():
     
     text = """Prof. Louie F. Cervantes, M. Eng. (Information Engineering)
     \nCCS 229 - Intelligent Systems
-    *Department of Computer Science
-    *College of Information and Communications Technology
-    *##West Visayas State University##"""
+    Department of Computer Science
+    College of Information and Communications Technology
+    West Visayas State University"""
+    st.text(text)
+
+    text = """Data used in this app was modified by:
+    Kyle Billones
+    CCS 229 - Intelligent Systems
+    College of Information Communication Technology
+    West Visayas State University
+    
+    """
     st.text(text)
 
     text = """This Streamlit app utilizes a bi-directional Recurrent Neural Network 
@@ -35,7 +44,7 @@ def app():
     https://en.wikipedia.org/wiki/List_of_typhoons_in_the_Philippines_(2000%E2%80%93present)"""
     st.write(text)  
 
-    df = pd.read_csv('./ph-typhoons.csv', header=0)
+    df = pd.read_csv('./updated-ph-typhoons.csv', header=0)
 
     with st.expander('View Dataset'):
         # Load the data
